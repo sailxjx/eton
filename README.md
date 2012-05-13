@@ -1,0 +1,1 @@
+a easy note
