@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, EtonActivity!</string>
-    <string name="app_name">Eton</string><string name="labelHeight">身高</string>
-    
+    <string name="app_name">Eton</string>
+    <string name="labelHeight">身高</string>
     <string name="labelWeight">体重</string>
     <string name="labelTitle">小喇叭小的不得了</string>
     <string name="hintWeight">请输入体重</string>

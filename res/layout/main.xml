@@ -11,8 +11,10 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
         android:text="@string/labelWeight" />
 
     <EditText
@@ -20,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/hintWeight" >
+        android:hint="@string/hintWeight">
 
         <requestFocus />
     </EditText>
@@ -41,16 +43,9 @@
     <Button
         android:id="@+id/button1"
         style="@android:style/Animation"
-        android:layout_width="120dp"
+        android:layout_width="match_parent"
         android:layout_height="30dp"
         android:text="@string/btnConfirm"
         android:textSize="12dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="159dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.26"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </LinearLayout>
