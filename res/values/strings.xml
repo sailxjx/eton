@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="app_name">Eton</string>
     <string name="labelHeight">身高</string>
@@ -7,6 +7,12 @@
     <string name="labelTitle">小喇叭小的不得了</string>
     <string name="hintWeight">请输入体重</string>
     <string name="hintHeight">请输入身高</string>
-    <string name="btnConfirm">确定</string>
+    <string name="btConfirm">确定</string>
+    <string name="labelResult">小喇叭凶的不得了</string>
+    <string-array name="aTips">
+        <item >小喇叭好轻啊～</item>
+        <item >小喇叭身材真好～～</item>
+        <item >小喇叭重死咯～～～</item>
+    </string-array>
 
 </resources>

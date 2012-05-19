@@ -5,22 +5,17 @@
     android:orientation="vertical" >
 
     <TextView
+        android:id="@+id/tvWeight"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/labelTitle" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="5dp"
-        android:paddingLeft="20dp"
+        android:padding="5dp"
         android:text="@string/labelWeight" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/etWeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
         android:ems="10"
         android:hint="@string/hintWeight">
 
@@ -28,24 +23,39 @@
     </EditText>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvHeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="5dp"
         android:text="@string/labelHeight" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etHeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
         android:ems="10"
         android:hint="@string/hintHeight" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btConfirm"
         style="@android:style/Animation"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:text="@string/btnConfirm"
+        android:text="@string/btConfirm"
         android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       	android:padding="5dp"
+        android:text="@string/labelTitle" />
+
+    <TextView
+        android:id="@+id/tvTip"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

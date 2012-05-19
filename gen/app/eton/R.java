@@ -8,27 +8,33 @@
 package app.eton;
 
 public final class R {
+    public static final class array {
+        public static final int aTips=0x7f050000;
+    }
     public static final class attr {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int button1=0x7f050004;
-        public static final int editText1=0x7f050001;
-        public static final int editText2=0x7f050003;
-        public static final int textView1=0x7f050000;
-        public static final int textView2=0x7f050002;
+        public static final int btConfirm=0x7f060004;
+        public static final int etHeight=0x7f060003;
+        public static final int etWeight=0x7f060001;
+        public static final int tvHeight=0x7f060002;
+        public static final int tvResult=0x7f060005;
+        public static final int tvTip=0x7f060006;
+        public static final int tvWeight=0x7f060000;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
-        public static final int btnConfirm=0x7f040006;
+        public static final int btConfirm=0x7f040006;
         public static final int hintHeight=0x7f040005;
         public static final int hintWeight=0x7f040004;
         public static final int labelHeight=0x7f040001;
+        public static final int labelResult=0x7f040007;
         public static final int labelTitle=0x7f040003;
         public static final int labelWeight=0x7f040002;
     }
