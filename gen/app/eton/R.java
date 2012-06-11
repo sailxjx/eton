@@ -38,5 +38,7 @@ public final class R {
         public static final int labelTitle=0x7f040003;
         public static final int labelWeight=0x7f040002;
         public static final int sHomeUrl=0x7f040008;
+        public static final int sMenuAbout=0x7f040009;
+        public static final int sMenuQuit=0x7f04000a;
     }
 }

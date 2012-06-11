@@ -15,5 +15,7 @@
         <item >小喇叭重死咯～～～</item>
     </string-array>
     <string name="sHomeUrl">http://www.own.local.com</string>
+    <string name="sMenuAbout">关于</string>
+    <string name="sMenuQuit">退出</string>
 
 </resources>
