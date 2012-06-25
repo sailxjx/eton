@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.eton"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="0.01" >
 
     <uses-sdk android:minSdkVersion="15" />
 
@@ -18,6 +18,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="ReportActivity" android:label="@string/app_report"></activity>
     </application>
-
 </manifest>

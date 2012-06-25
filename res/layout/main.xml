@@ -39,13 +39,29 @@
         android:ems="10"
         android:hint="@string/hintHeight" />
 
-    <Button
-        android:id="@+id/btConfirm"
-        style="@android:style/Animation"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btConfirm"
-        android:textSize="14dp" />
+        android:gravity="left|right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btConfirm"
+            style="@android:style/Animation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/btConfirm"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/btReport"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/btReport"
+            android:textSize="14dp" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/tvResult"

@@ -12,7 +12,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,8 +22,8 @@ public class EtonActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        Button bt = (Button) findViewById(R.id.btConfirm);
-        bt.setOnClickListener(oclBmi);
+        findViewById(R.id.btConfirm).setOnClickListener(oclBmi);
+        findViewById(R.id.btReport).setOnClickListener(oclReport);
     }
 
     protected OnClickListener oclBmi = new OnClickListener() {
@@ -66,9 +65,18 @@ public class EtonActivity extends Activity {
 
     };
 
+    protected OnClickListener oclReport = new OnClickListener() {
+
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(EtonActivity.this, ReportActivity.class);
+            startActivity(intent);
+        }
+    };
+
     protected void openOptionsDialog() {
-        new AlertDialog.Builder(this).setTitle("小喇叭小的不得了")
-                .setMessage("这是小喇叭").setPositiveButton("确认", oclLeave)
+        new AlertDialog.Builder(this).setTitle("小喇叭小的不得了").setMessage("这是小喇叭")
+                .setPositiveButton("确认", oclLeave)
                 .setNegativeButton("首页", this.getToHomepage()).show();
     }
 
@@ -87,11 +95,9 @@ public class EtonActivity extends Activity {
     protected static final int MENU_QUIT = Menu.FIRST + 1;
 
     public boolean onCreateOptionsMenu(Menu menu) {
-        super.onCreateOptionsMenu(menu);
-        menu.add(0, MENU_ABOUT, 0, getResources()
-                .getString(R.string.sMenuAbout));
-        menu.add(0, MENU_QUIT, 0, getResources().getString(R.string.sMenuQuit));
-
+        menu.add(0, MENU_ABOUT, 0, R.string.sMenuAbout).setIcon(
+                android.R.drawable.ic_menu_help);
+        menu.add(0, MENU_QUIT, 0, R.string.sMenuQuit);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -110,7 +116,6 @@ public class EtonActivity extends Activity {
     protected DialogInterface.OnClickListener oclLeave = new DialogInterface.OnClickListener() {
 
         public void onClick(DialogInterface dialog, int which) {
-
         }
     };
 

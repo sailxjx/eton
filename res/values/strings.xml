@@ -8,6 +8,7 @@
     <string name="hintWeight">请输入体重</string>
     <string name="hintHeight">请输入身高</string>
     <string name="btConfirm">确定</string>
+    <string name="btReport">报告</string>
     <string name="labelResult">小喇叭凶的不得了</string>
     <string-array name="aTips">
         <item >小喇叭好轻啊～</item>
@@ -17,5 +18,7 @@
     <string name="sHomeUrl">http://www.own.local.com</string>
     <string name="sMenuAbout">关于</string>
     <string name="sMenuQuit">退出</string>
+    <string name="labelReport">举报小喇叭</string>
+    <string name="app_report">小喇叭坏的不得了</string>
 
 </resources>
