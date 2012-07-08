@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="kWeight">KEY_WEIGHT</string>
+    <string name="kHeight">KEY_HEIGHT</string>
+</resources>

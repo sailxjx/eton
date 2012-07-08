@@ -11,5 +11,11 @@
         android:padding="5dp"
         android:text="@string/labelReport" />
 
+    <TextView
+        android:id="@+id/tvRTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelWeight"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </LinearLayout>

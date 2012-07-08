@@ -22,6 +22,7 @@ public final class R {
         public static final int etHeight=0x7f060003;
         public static final int etWeight=0x7f060001;
         public static final int tvHeight=0x7f060002;
+        public static final int tvRTip=0x7f060008;
         public static final int tvResult=0x7f060006;
         public static final int tvTip=0x7f060007;
         public static final int tvWeight=0x7f060000;
@@ -31,19 +32,21 @@ public final class R {
         public static final int report=0x7f030001;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int app_report=0x7f04000d;
-        public static final int btConfirm=0x7f040006;
-        public static final int btReport=0x7f040007;
-        public static final int hintHeight=0x7f040005;
-        public static final int hintWeight=0x7f040004;
-        public static final int labelHeight=0x7f040001;
-        public static final int labelReport=0x7f04000c;
-        public static final int labelResult=0x7f040008;
-        public static final int labelTitle=0x7f040003;
-        public static final int labelWeight=0x7f040002;
-        public static final int sHomeUrl=0x7f040009;
-        public static final int sMenuAbout=0x7f04000a;
-        public static final int sMenuQuit=0x7f04000b;
+        public static final int app_name=0x7f040002;
+        public static final int app_report=0x7f04000f;
+        public static final int btConfirm=0x7f040008;
+        public static final int btReport=0x7f040009;
+        public static final int hintHeight=0x7f040007;
+        public static final int hintWeight=0x7f040006;
+        public static final int kHeight=0x7f040001;
+        public static final int kWeight=0x7f040000;
+        public static final int labelHeight=0x7f040003;
+        public static final int labelReport=0x7f04000e;
+        public static final int labelResult=0x7f04000a;
+        public static final int labelTitle=0x7f040005;
+        public static final int labelWeight=0x7f040004;
+        public static final int sHomeUrl=0x7f04000b;
+        public static final int sMenuAbout=0x7f04000c;
+        public static final int sMenuQuit=0x7f04000d;
     }
 }

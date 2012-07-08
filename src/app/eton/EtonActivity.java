@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -55,6 +56,8 @@ public class EtonActivity extends Activity {
                 } else {
                     tvTip.setText(aTips[1]);
                 }
+                Button btConfirm = (Button) findViewById(R.id.btConfirm);
+                btConfirm.setText("小喇叭是个大傻逼～");
             } catch (Exception e) {
                 Toast.makeText(EtonActivity.this, "打错了哦～", Toast.LENGTH_SHORT)
                         .show();
@@ -70,6 +73,10 @@ public class EtonActivity extends Activity {
         public void onClick(View v) {
             Intent intent = new Intent();
             intent.setClass(EtonActivity.this, ReportActivity.class);
+            Bundle bd = new Bundle();
+            EditText etWeight = (EditText) findViewById(R.id.etWeight);
+            bd.putString(getString(R.string.kWeight), etWeight.getText().toString());
+            intent.putExtras(bd);
             startActivity(intent);
         }
     };
